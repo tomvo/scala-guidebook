@@ -9,8 +9,8 @@ import AutoImport from 'astro-auto-import';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://guide.agriturismoscala.com',
 	integrations: [
-
 		starlight({
 			title: 'Local Guide',
 			social: [{ icon: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/agriturismoscala/' }],
