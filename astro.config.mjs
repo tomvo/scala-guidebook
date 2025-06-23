@@ -7,8 +7,12 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Docs with Tailwind',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Local Guide',
+			social: [{ icon: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/agriturismoscala/' }],
+			logo: {
+				src: './src/assets/logo-horizontal.svg',
+				alt: 'Logo',
+			},
 			sidebar: [
 				{
 					label: 'Guides',
@@ -22,7 +26,10 @@ export default defineConfig({
 					autogenerate: { directory: 'reference' },
 				},
 			],
-			customCss: ['./src/styles/global.css'],
+			customCss: [
+				'./src/styles/global.css',
+				'./src/fonts/font-face.css',
+			],
 		}),
 	],
 	vite: {

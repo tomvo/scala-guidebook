@@ -5,13 +5,23 @@
 @import 'tailwindcss/utilities.css' layer(utilities);
 
 @theme {
-	/*
-	Configure your Tailwind theme that will be used by Starlight.
-	https://starlight.astro.build/guides/css-and-tailwind/#styling-starlight-with-tailwind
-	*/
+  /* Your preferred text font. Starlight uses a system font stack by default. */
+  --font-sans: 'Optima';
+  /* Your preferred code font. Starlight uses system monospace fonts by default. */
+  --font-mono: 'IBM Plex Mono';
+  /* Your preferred accent color. Indigo is closest to Starlight’s defaults. */
+  /* Generated accent color palettes. */
+--color-accent-200: #c2d18e;
+--color-accent-600: #627200;
+--color-accent-900: #2e3700;
+--color-accent-950: #212800;
+/* Generated gray color palettes. */
+--color-gray-100: #faf5f3;
+--color-gray-200: #f4ece7;
+--color-gray-300: #cac0b9;
+--color-gray-400: #9a877b;
+--color-gray-500: #655449;
+--color-gray-700: #44342a;
+--color-gray-800: #322319;
+--color-gray-900: #1e1612;
 }
-
-/*
-Add additional Tailwind styles to this file:
-https://tailwindcss.com/docs/adding-custom-styles#using-custom-css
-*/
