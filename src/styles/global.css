@@ -4,6 +4,10 @@
 @import 'tailwindcss/theme.css' layer(theme);
 @import 'tailwindcss/utilities.css' layer(utilities);
 
+.content-panel:has(h1#_top:not([data-page-title])) {
+  display: none;
+}
+
 @theme {
   /* Your preferred text font. Starlight uses a system font stack by default. */
   --font-sans: 'Optima';

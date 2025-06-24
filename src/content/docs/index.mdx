@@ -2,38 +2,25 @@
 title: Welcome to the Agriturismo Scala Local Guide
 description: Enjoy your stay at Agriturismo Scala with our local guide.
 template: splash
-hero:
-  title: |
-    Welcome to the Agriturismo Scala Local Guide
-
-  tagline: Enjoy your stay at Agriturismo Scala with our local guide.
-  image:
-    file: ../../assets/cocktail.jpeg
-  actions:
-    - text: Read the guide
-      link: /guides/where-to-eat/
-      icon: right-arrow
-    - text: Check out our website
-      link: https://agriturismoscala.com
-      icon: external
-      variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
 
-{/* ## Next steps
+import { LinkButton } from '@astrojs/starlight/components';
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid> */}
+<div class="relative isolate px-6 pt-14 lg:px-8">
+    <div class="mx-auto max-w-2xl">
+
+      <div class="text-center">
+        <h1 class="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Welcome to the Agriturismo Scala Local Guide</h1>
+        <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Enjoy your stay at Agriturismo Scala and enjoy the places you will find in this guide. Don't hesitate to ask us for more tips while you're here :-)</p>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+          <LinkButton href="/guides/where-to-eat">
+            Read the guide
+          </LinkButton>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
