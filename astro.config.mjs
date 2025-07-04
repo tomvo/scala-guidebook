@@ -23,9 +23,8 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Where to eat', slug: 'guides/where-to-eat' },
-						{ label: 'What to do', slug: 'guides/what-to-do' },
-						{ label: 'Beaches', slug: 'guides/beaches' },
+						{ label: 'Where to eat and drink', slug: 'guides/where-to-eat' },
+						{ label: 'Things to do', slug: 'guides/things-to-do' },
 					],
 				}
 			],
