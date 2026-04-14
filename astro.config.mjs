@@ -12,7 +12,17 @@ export default defineConfig({
 	site: 'https://guide.agriturismoscala.com',
 	integrations: [
 		starlight({
-			title: 'Local Guide',
+			title: {
+				en: 'Local Guide',
+				it: 'Guida Locale',
+				de: 'Lokaler Reiseführer',
+			},
+			defaultLocale: 'root',
+			locales: {
+				root: { label: 'English', lang: 'en' },
+				it: { label: 'Italiano', lang: 'it' },
+				de: { label: 'Deutsch', lang: 'de' },
+			},
 			social: [{ icon: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/agriturismoscala/' }],
 			logo: {
 				src: './src/assets/logo-horizontal.svg',
@@ -21,10 +31,10 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Guides',
+					translations: { it: 'Guide', de: 'Reiseführer' },
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Where to eat and drink', slug: 'guides/where-to-eat' },
-						{ label: 'Things to do', slug: 'guides/things-to-do' },
+						{ label: 'Where to eat and drink', slug: 'guides/where-to-eat', translations: { it: 'Dove mangiare e bere', de: 'Wo man essen und trinken kann' } },
+						{ label: 'Things to do', slug: 'guides/things-to-do', translations: { it: 'Cosa fare', de: 'Aktivitäten' } },
 					],
 				}
 			],
