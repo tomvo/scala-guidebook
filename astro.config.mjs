@@ -45,8 +45,8 @@ export default defineConfig({
 		}),
 		AutoImport({
 			imports: [
-				// Add your Note component to the auto-imports:
 				'./src/components/GoogleMapsIsland.jsx',
+				'./src/components/MapListings.jsx',
 			],
 			
 		}),
@@ -55,6 +55,6 @@ export default defineConfig({
 	],
 	vite: {
 		plugins: [tailwindcss()],
-		optimizeDeps: { include: ['@react-google-maps/api'] },
+		optimizeDeps: { include: ['@react-google-maps/api', 'maplibre-gl'] },
 	},
 });
