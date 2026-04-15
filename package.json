@@ -18,6 +18,7 @@
     "@tailwindcss/vite": "^4.0.7",
     "astro": "^5.6.1",
     "astro-auto-import": "^0.4.4",
+    "maplibre-gl": "^5.23.0",
     "marked": "^15.0.12",
     "node-fetch": "^2.7.0",
     "papaparse": "^5.5.3",

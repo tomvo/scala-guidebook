@@ -8,6 +8,22 @@
   display: none;
 }
 
+.map-listings-map {
+  width: 100%;
+  height: 280px;
+  border-radius: 10px 10px 0 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .map-listings-map {
+    height: 450px;
+  }
+}
+
+
 @theme {
   /* Your preferred text font. Starlight uses a system font stack by default. */
   --font-sans: 'Optima';
