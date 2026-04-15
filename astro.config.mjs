@@ -30,6 +30,15 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
+					label: 'Agriturismo Scala',
+					items: [
+						{ label: 'Welcome', slug: 'agriturismo/welcome', translations: { it: 'Benvenuti', de: 'Willkommen' } },
+						{ label: 'Good to Know', slug: 'agriturismo/good-to-know', translations: { it: 'Buono a sapersi', de: 'Gut zu wissen' } },
+						{ label: 'Food & Drinks', slug: 'agriturismo/food-and-drinks', translations: { it: 'Cibo e bevande', de: 'Essen & Trinken' } },
+						{ label: 'Sustainability & Shop', slug: 'agriturismo/sustainability-and-shop', translations: { it: 'Sostenibilità e negozio', de: 'Nachhaltigkeit & Shop' } },
+					],
+				},
+				{
 					label: 'Guides',
 					translations: { it: 'Guide', de: 'Reiseführer' },
 					items: [
