@@ -1,0 +1,62 @@
+{
+  "potenza-picena": [
+    { "name": "Le Scalette", "lat": 43.3674149, "lng": 13.6205383 },
+    { "name": "Osteria del Vicolo", "lat": 43.3666835, "lng": 13.619909 },
+    { "name": "Marchigiano Reggiano", "lat": 43.3664247, "lng": 13.6206435 },
+    { "name": "Groove Beer Bar", "lat": 43.3674629, "lng": 13.6198622 },
+    { "name": "La Cipolla d'Oro", "lat": 43.3982498, "lng": 13.6590609 },
+    { "name": "Pizzeria Diego", "lat": 43.3667020, "lng": 13.6238791 },
+    { "name": "Hotel Torresi", "lat": 43.3795612, "lng": 13.6088137 },
+    { "name": "Birrificio Resina", "lat": 43.3974075, "lng": 13.6517093 },
+    { "name": "Cantina Andrea Giorgetti", "lat": 43.366409, "lng": 13.620695 }
+  ],
+  "macerata-province": [
+    { "name": "Da Marina al Teatro", "lat": 43.1864841, "lng": 13.4810872 },
+    { "name": "Antica Fornace", "lat": 43.310556, "lng": 13.311475 },
+    { "name": "Osteria dei Segreti", "lat": 43.377803, "lng": 13.373242 },
+    { "name": "Taverna San Nicolò", "lat": 43.3638315, "lng": 13.4357088 },
+    { "name": "Il Borgo Antico", "lat": 43.4060889, "lng": 13.5463892 },
+    { "name": "Taverna di Ro", "lat": 43.3732656, "lng": 13.2157466 },
+    { "name": "Da Silvano", "lat": 43.2997756, "lng": 13.453522 },
+    { "name": "Osteria dei Fiori", "lat": 43.2992809, "lng": 13.4540921 },
+    { "name": "Il Quinto", "lat": 43.3289079, "lng": 13.4502117 },
+    { "name": "Ristorante I Gelsi", "lat": 43.3498233, "lng": 13.4888355 },
+    { "name": "Koinè Vineria", "lat": 43.296672, "lng": 13.4368433 },
+    { "name": "Mescola", "lat": 43.3080279, "lng": 13.7287179 },
+    { "name": "Ristorante La Limonaia", "lat": 43.3055233, "lng": 13.7229297 },
+    { "name": "Donna Sofì", "lat": 43.3131248, "lng": 13.7259594 },
+    { "name": "Braceria Mei", "lat": 43.2885146, "lng": 13.6647764 },
+    { "name": "Il Segreto di Pulcinella", "lat": 43.2902995, "lng": 13.6542938 }
+  ],
+  "conero-coast": [
+    { "name": "Marcello", "lat": 43.5619063, "lng": 13.5931044 },
+    { "name": "Da Emilia", "lat": 43.5619063, "lng": 13.5931044 },
+    { "name": "Clandestino Susci Bar", "lat": 43.5619063, "lng": 13.5931044 },
+    { "name": "La Torre", "lat": 43.5112765, "lng": 13.6241539 },
+    { "name": "Bocasalina", "lat": 43.4852804, "lng": 13.633965 },
+    { "name": "Da Sara", "lat": 43.5230702, "lng": 13.6196112 },
+    { "name": "Bar Belvedere", "lat": 43.5348535, "lng": 13.6079403 },
+    { "name": "La Vecchia Pesca", "lat": 43.613251, "lng": 13.4429739 },
+    { "name": "Hostaria Dietro le Quinte", "lat": 43.5220013, "lng": 13.2437848 },
+    { "name": "Ca' Vecchia Beerstrot", "lat": 43.4357623, "lng": 13.3776079 }
+  ],
+  "loreto": [
+    { "name": "Andreina", "lat": 43.4392213, "lng": 13.6313048 },
+    { "name": "Casa Bruscoli", "lat": 43.4475475, "lng": 13.6194983 }
+  ],
+  "senigallia-north": [
+    { "name": "Uliassi", "lat": 43.7194631, "lng": 13.2208132 },
+    { "name": "Sepia by Niko", "lat": 43.7149238, "lng": 13.2195339 },
+    { "name": "Vino e Cibo", "lat": 43.7144617, "lng": 13.2181742 }
+  ],
+  "fermo-south": [
+    { "name": "Ristorante L'Arcade", "lat": 43.1826562, "lng": 13.7933863 },
+    { "name": "Banco_12", "lat": 43.1826562, "lng": 13.7933863 },
+    { "name": "Controvento (Natural Wine)", "lat": 43.24423, "lng": 13.7706788 },
+    { "name": "NaStilla Vineria", "lat": 43.2337063, "lng": 13.6323663 },
+    { "name": "Il Topicco", "lat": 43.0041546, "lng": 13.8658462 }
+  ],
+  "sibillini": [
+    { "name": "Il Tiglio", "lat": 42.9083548, "lng": 13.3067962 }
+  ]
+}
