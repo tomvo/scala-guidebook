@@ -10,6 +10,11 @@ import AutoImport from 'astro-auto-import';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://guide.agriturismoscala.com',
+	redirects: {
+		'/': '/agriturismo/welcome',
+		'/de': '/de/agriturismo/welcome',
+		'/it': '/it/agriturismo/welcome',
+	},
 	integrations: [
 		starlight({
 			title: {
