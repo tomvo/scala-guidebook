@@ -10,9 +10,9 @@ import mdx from '@astrojs/mdx';
 export default defineConfig({
 	site: 'https://guide.agriturismoscala.com',
 	redirects: {
-		'/': '/practical-things-to-know',
-		'/de': '/de/practical-things-to-know',
-		'/it': '/it/practical-things-to-know',
+		'/': '/welcome',
+		'/de': '/de/welcome',
+		'/it': '/it/welcome',
 	},
 	integrations: [
 		starlight({
@@ -33,6 +33,11 @@ export default defineConfig({
 				alt: 'Logo',
 			},
 			sidebar: [
+				{
+					label: 'Welcome',
+					slug: 'welcome',
+					translations: { it: 'Benvenuti', de: 'Willkommen' },
+				},
 				{
 					label: 'Practical things to know',
 					slug: 'practical-things-to-know',
