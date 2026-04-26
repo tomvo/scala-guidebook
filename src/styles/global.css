@@ -23,6 +23,181 @@
   }
 }
 
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-accent-600);
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  border-radius: 9999px;
+  text-decoration: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  transition: background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: var(--color-accent-900);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.16);
+}
+
+.whatsapp-button svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.quick-info-hero {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem 1.25rem;
+  padding: 1.5rem;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--color-accent-200) 0%, color-mix(in srgb, var(--color-accent-200) 35%, white) 100%);
+  border: 1px solid color-mix(in srgb, var(--color-accent-600) 28%, transparent);
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.quick-info-hero-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  background-color: var(--color-accent-600);
+  color: white;
+  flex-shrink: 0;
+}
+
+.quick-info-hero-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: currentColor;
+}
+
+.quick-info-hero-body {
+  min-width: 0;
+}
+
+.quick-info-hero-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.quick-info-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-accent-900);
+  opacity: 0.75;
+  margin: 0 !important;
+  line-height: 1.2;
+}
+
+.quick-info-hero-value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-gray-900);
+  margin: 0.2rem 0 0 0 !important;
+  line-height: 1.2;
+}
+
+.quick-info-hero-meta {
+  font-size: 1rem;
+  color: var(--color-gray-700);
+  margin: 0.25rem 0 0 0 !important;
+  font-variant-numeric: tabular-nums;
+}
+
+.quick-info-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  background-color: white;
+  color: var(--color-accent-900) !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  border: 1px solid color-mix(in srgb, var(--color-accent-600) 35%, transparent);
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.quick-info-action:hover {
+  background-color: var(--color-gray-100);
+  transform: translateY(-1px);
+}
+
+.quick-info-action svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}
+
+.quick-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.quick-info-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+  padding: 1rem 1.125rem;
+  border-radius: 12px;
+  background-color: var(--color-gray-100);
+  border: 1px solid color-mix(in srgb, var(--color-gray-300) 55%, transparent);
+}
+
+.quick-info-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 9999px;
+  background-color: var(--color-accent-200);
+  color: var(--color-accent-900);
+  flex-shrink: 0;
+}
+
+.quick-info-card-icon svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: currentColor;
+}
+
+.quick-info-card-body {
+  min-width: 0;
+}
+
+.quick-info-card-value {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color-gray-900);
+  margin: 0.2rem 0 0 0 !important;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+}
+
+.quick-info-card-meta {
+  font-size: 0.88rem;
+  color: var(--color-gray-700);
+  margin: 0.25rem 0 0 0 !important;
+}
+
 
 @theme {
   /* Your preferred text font. Starlight uses a system font stack by default. */
