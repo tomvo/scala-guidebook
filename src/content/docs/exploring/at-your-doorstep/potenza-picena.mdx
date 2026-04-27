@@ -3,6 +3,11 @@ title: Potenza Picena
 description: Our hilltop town, with piazzas, pizza, aperitivo spots, and the places on our doorstep.
 ---
 
+import RestaurantsMap from '../../../../components/RestaurantsMap.jsx';
+import mapData from '../../../../data/restaurantMap.json';
+
+<RestaurantsMap client:only="react" places={mapData['at-your-doorstep-potenza-picena']} />
+
 Our hilltop town, with Teatro Bruno Mugellini, the old church of San Francesco, and a handful of cafés. Walkable, quiet, and a good place for an early-evening *passeggiata*.
 
 - **Le Scalette**, a simple osteria close to home. Al fresco dining on the piazza in summer, with views of the Adriatic Sea and Monte Conero.

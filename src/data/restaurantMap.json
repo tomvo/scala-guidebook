@@ -58,5 +58,18 @@
   ],
   "sibillini": [
     { "name": "Il Tiglio", "lat": 42.9083548, "lng": 13.3067962 }
+  ],
+  "at-your-doorstep-potenza-picena": [
+    { "name": "Le Scalette", "lat": 43.3674149, "lng": 13.6205383 },
+    { "name": "Osteria del Vicolo", "lat": 43.3666835, "lng": 13.619909 },
+    { "name": "Marchigiano Reggiano", "lat": 43.3664247, "lng": 13.6206435 },
+    { "name": "Groove Beer Bar", "lat": 43.3674629, "lng": 13.6198622 },
+    { "name": "La Cipolla d'Oro", "lat": 43.3982498, "lng": 13.6590609 },
+    { "name": "Pizzeria Diego", "lat": 43.3667020, "lng": 13.6238791 },
+    { "name": "Hotel Torresi", "lat": 43.3795612, "lng": 13.6088137 },
+    { "name": "Cantina Andrea Giorgetti", "lat": 43.366409, "lng": 13.620695 },
+    { "name": "Frantoio Torresi", "lat": 43.3925118, "lng": 13.6350379 },
+    { "name": "Il Giardino dell'Alpaca", "lat": 43.3613973, "lng": 13.5930276 },
+    { "name": "Torrenova Golf", "lat": 43.4004484, "lng": 13.6731028 }
   ]
 }
