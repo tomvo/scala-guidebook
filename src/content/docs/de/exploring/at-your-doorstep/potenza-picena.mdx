@@ -3,6 +3,11 @@ title: Potenza Picena
 description: Unser Hügelstädtchen — Piazzas, Pizza, Aperitivo-Lokale und die Plätze direkt vor der Tür.
 ---
 
+import RestaurantsMap from '../../../../../components/RestaurantsMap.jsx';
+import mapData from '../../../../../data/restaurantMap.json';
+
+<RestaurantsMap client:only="react" places={mapData['at-your-doorstep-potenza-picena']} />
+
 Unser Hügelstädtchen mit dem Teatro Bruno Mugellini, der alten Kirche San Francesco und einer Handvoll Cafés. Gut zu Fuß, ruhig und ein schöner Ort für eine frühabendliche *passeggiata*.
 
 - **Le Scalette** — Einfache Osteria ganz in der Nähe. Im Sommer Tische im Freien auf der Piazza, mit Blick auf die Adria und den Monte Conero.
