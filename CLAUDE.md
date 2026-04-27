@@ -8,9 +8,9 @@ A local guidebook website for Agriturismo Scala (guide.agriturismoscala.com), bu
 
 ## Commands
 
-- `npm run dev` — Start dev server with TinaCMS at localhost:4321 (runs `tinacms dev -c "astro dev"`)
-- `npm run build` — Production build to `./dist/`
-- `npm run generate:restaurants` — Regenerate the restaurant list from a Google Sheets CSV into `where-to-eat.mdx`
+- `npm run dev`, Start dev server with TinaCMS at localhost:4321 (runs `tinacms dev -c "astro dev"`)
+- `npm run build`, Production build to `./dist/`
+- `npm run generate:restaurants`, Regenerate the restaurant list from a Google Sheets CSV into `where-to-eat.mdx`
 
 ## Architecture
 
@@ -25,14 +25,14 @@ All content must be provided in three languages: English (EN), German (DE), and 
 ### Content Flow
 
 - Guide pages live in `src/content/docs/guides/` as `.mdx` files
-- The restaurant guide (`where-to-eat.mdx`) is generated from a template at `src/content/templates/where-to-eat.mdx` — the `%%RESTAURANT_LIST%%` placeholder gets replaced with data fetched from a Google Sheets CSV via `scripts/generateMarkdown.js`
+- The restaurant guide (`where-to-eat.mdx`) is generated from a template at `src/content/templates/where-to-eat.mdx`, the `%%RESTAURANT_LIST%%` placeholder gets replaced with data fetched from a Google Sheets CSV via `scripts/generateMarkdown.js`
 - Sidebar navigation is manually configured in `astro.config.mjs`
 
 ### Components
 
-- `src/components/GoogleMapsIsland.jsx` — React island for embedded Google Maps, auto-imported into MDX
-- `src/components/GoogleMapField.jsx` — Custom TinaCMS field for picking map coordinates in the editor
-- `src/components/MarkdownRenderer.astro` — Renders markdown content
+- `src/components/GoogleMapsIsland.jsx`, React island for embedded Google Maps, auto-imported into MDX
+- `src/components/GoogleMapField.jsx`, Custom TinaCMS field for picking map coordinates in the editor
+- `src/components/MarkdownRenderer.astro`, Renders markdown content
 
 ### Environment Variables
 
