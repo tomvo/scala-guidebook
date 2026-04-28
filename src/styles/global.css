@@ -10,7 +10,7 @@ h1#_top {
 }
 
 .site-title {
-  color: var(--color-gray-900);
+  color: rgb(68, 52, 42);
 }
 
 .site-title > span {
