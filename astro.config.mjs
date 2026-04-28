@@ -16,6 +16,75 @@ export default defineConfig({
 	},
 	integrations: [
 		starlight({
+			head: [
+				{
+					tag: 'script',
+					content: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  analytics_storage: 'denied',
+  ad_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied',
+  wait_for_update: 500,
+});
+try {
+  if (localStorage.getItem('cookie-consent') === 'granted') {
+    gtag('consent', 'update', { analytics_storage: 'granted' });
+  }
+} catch (e) {}`,
+				},
+				{
+					tag: 'script',
+					attrs: {
+						async: true,
+						src: 'https://www.googletagmanager.com/gtag/js?id=G-VE10DC8DHT',
+					},
+				},
+				{
+					tag: 'script',
+					content: `gtag('js', new Date());\ngtag('config', 'G-VE10DC8DHT');`,
+				},
+				{
+					tag: 'script',
+					content: `(function(){
+  var STORAGE_KEY = 'cookie-consent';
+  try { if (localStorage.getItem(STORAGE_KEY)) return; } catch(e) { return; }
+  var T = {
+    en: { msg: 'This site uses cookies for analytics.', accept: 'Accept', reject: 'Reject' },
+    it: { msg: 'Questo sito utilizza i cookie per le statistiche.', accept: 'Accetta', reject: 'Rifiuta' },
+    de: { msg: 'Diese Website verwendet Cookies für Analysen.', accept: 'Akzeptieren', reject: 'Ablehnen' },
+  };
+  function init(){
+    var lang = (document.documentElement.lang || 'en').toLowerCase().slice(0,2);
+    var t = T[lang] || T.en;
+    var b = document.createElement('div');
+    b.className = 'cookie-consent-banner';
+    b.setAttribute('role', 'dialog');
+    b.setAttribute('aria-label', t.msg);
+    b.innerHTML = '<p class="cookie-consent-msg"></p><div class="cookie-consent-actions"><button type="button" class="cookie-consent-btn cookie-consent-reject"></button><button type="button" class="cookie-consent-btn cookie-consent-accept"></button></div>';
+    b.querySelector('.cookie-consent-msg').textContent = t.msg;
+    b.querySelector('.cookie-consent-reject').textContent = t.reject;
+    b.querySelector('.cookie-consent-accept').textContent = t.accept;
+    function close(choice){
+      try { localStorage.setItem(STORAGE_KEY, choice); } catch(e) {}
+      if (choice === 'granted' && typeof gtag === 'function') {
+        gtag('consent', 'update', { analytics_storage: 'granted' });
+      }
+      b.remove();
+    }
+    b.querySelector('.cookie-consent-accept').addEventListener('click', function(){ close('granted'); });
+    b.querySelector('.cookie-consent-reject').addEventListener('click', function(){ close('denied'); });
+    document.body.appendChild(b);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();`,
+				},
+			],
 			title: {
 				en: 'Local Guide',
 				it: 'Guida Locale',
