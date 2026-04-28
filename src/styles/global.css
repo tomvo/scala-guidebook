@@ -237,6 +237,80 @@ h1#_top {
 }
 
 
+.cookie-consent-banner {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1000;
+  background-color: var(--color-gray-900);
+  color: white;
+  padding: 0.875rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.cookie-consent-msg {
+  margin: 0 !important;
+}
+
+.cookie-consent-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.cookie-consent-btn {
+  padding: 0.4rem 0.9rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.cookie-consent-reject {
+  background-color: transparent;
+  color: white;
+  border: 1px solid color-mix(in srgb, white 35%, transparent);
+}
+
+.cookie-consent-reject:hover {
+  background-color: color-mix(in srgb, white 10%, transparent);
+}
+
+.cookie-consent-accept {
+  background-color: var(--color-accent-600);
+  color: white;
+}
+
+.cookie-consent-accept:hover {
+  background-color: var(--color-accent-900);
+}
+
+@media (min-width: 640px) {
+  .cookie-consent-banner {
+    flex-direction: row;
+    align-items: center;
+    left: auto;
+    right: 1rem;
+    margin: 0;
+  }
+
+  .cookie-consent-actions {
+    flex-shrink: 0;
+  }
+}
+
 @theme {
   /* Your preferred text font. Starlight uses a system font stack by default. */
   --font-sans: 'URW Classico';
