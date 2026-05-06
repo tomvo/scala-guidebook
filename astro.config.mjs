@@ -236,6 +236,7 @@ try {
 					label: 'Restaurants, the full list',
 					translations: { it: "Ristoranti, l'elenco completo", de: 'Restaurants, die vollständige Liste' },
 					items: [
+						{ label: 'All restaurants on one page', slug: 'restaurants/all', translations: { it: 'Tutti i ristoranti in una pagina', de: 'Alle Restaurants auf einer Seite' } },
 						{ label: 'At your doorstep, Potenza Picena', slug: 'restaurants/potenza-picena', translations: { it: 'A un passo da te, Potenza Picena', de: 'Direkt vor der Tür, Potenza Picena' } },
 						{ label: 'Short drive, Macerata province', slug: 'restaurants/macerata-province', translations: { it: 'Breve viaggio in auto, provincia di Macerata', de: 'Kurze Fahrt, Provinz Macerata' } },
 						{ label: 'Conero coast, Ancona province', slug: 'restaurants/conero-coast', translations: { it: 'Costa del Conero, provincia di Ancona', de: 'Conero-Küste, Provinz Ancona' } },
