@@ -186,6 +186,22 @@ try {
 					],
 				},
 				{
+					label: 'Biking',
+					translations: { it: 'In bici', de: 'Radfahren' },
+					items: [
+						{ label: 'Before you go', slug: 'biking/before-you-go', translations: { it: 'Prima di partire', de: 'Bevor Sie losfahren' } },
+						{
+							label: 'Routes',
+							translations: { it: 'Percorsi', de: 'Touren' },
+							items: [
+								{ label: 'The River', slug: 'biking/routes/the-river', translations: { it: 'Il Fiume', de: 'Der Fluss' } },
+								{ label: 'The Coast to Loreto', slug: 'biking/routes/the-coast-to-loreto', translations: { it: 'La Costa verso Loreto', de: 'Die Küste nach Loreto' } },
+								{ label: 'The Hilltop Loop', slug: 'biking/routes/the-hilltop-loop', translations: { it: "L'Anello delle Colline", de: 'Die Hügelrunde' } },
+							],
+						},
+					],
+				},
+				{
 					label: 'Best of',
 					translations: { it: 'Il meglio di', de: 'Das Beste' },
 					items: [
