@@ -131,10 +131,12 @@ try {
 				{
 					label: 'Exploring the area',
 					translations: { it: 'Esplorare la zona', de: 'Die Umgebung erkunden' },
+					collapsed: true,
 					items: [
 						{
 							label: 'At your doorstep (up to 20 minutes)',
 							translations: { it: 'A un passo da te (fino a 20 minuti)', de: 'Direkt vor der Tür (bis 20 Minuten)' },
+							collapsed: true,
 							items: [
 								{ label: 'Potenza Picena', slug: 'exploring/at-your-doorstep/potenza-picena' },
 								{ label: 'Montelupone', slug: 'exploring/at-your-doorstep/montelupone' },
@@ -145,6 +147,7 @@ try {
 						{
 							label: 'A short drive (20–45 minutes)',
 							translations: { it: 'Un breve viaggio in auto (20–45 minuti)', de: 'Eine kurze Fahrt (20–45 Minuten)' },
+							collapsed: true,
 							items: [
 								{ label: 'Recanati', slug: 'exploring/short-drive/recanati' },
 								{ label: 'Loreto', slug: 'exploring/short-drive/loreto' },
@@ -162,6 +165,7 @@ try {
 						{
 							label: 'Day-trip distance (45 min – 1h30)',
 							translations: { it: 'Distanza per una gita in giornata (45 min – 1h30)', de: 'Tagesausflugs-Distanz (45 Min. – 1h30)' },
+							collapsed: true,
 							items: [
 								{ label: 'The Conero coast, Sirolo, Numana & Portonovo', slug: 'exploring/day-trip/conero-coast', translations: { it: 'La costa del Conero, Sirolo, Numana e Portonovo', de: 'Die Conero-Küste, Sirolo, Numana & Portonovo' } },
 								{ label: 'Cingoli', slug: 'exploring/day-trip/cingoli' },
@@ -175,6 +179,7 @@ try {
 						{
 							label: 'A full day out (1h30+)',
 							translations: { it: 'Una giornata intera fuori (1h30+)', de: 'Ein ganzer Tagesausflug (1h30+)' },
+							collapsed: true,
 							items: [
 								{ label: 'Urbino', slug: 'exploring/full-day/urbino' },
 								{ label: 'Senigallia', slug: 'exploring/full-day/senigallia' },
@@ -188,11 +193,13 @@ try {
 				{
 					label: 'Biking',
 					translations: { it: 'In bici', de: 'Radfahren' },
+					collapsed: true,
 					items: [
 						{ label: 'Before you go', slug: 'biking/before-you-go', translations: { it: 'Prima di partire', de: 'Bevor Sie losfahren' } },
 						{
 							label: 'Routes',
 							translations: { it: 'Percorsi', de: 'Touren' },
+							collapsed: true,
 							items: [
 								{ label: 'The River', slug: 'biking/routes/the-river', translations: { it: 'Il Fiume', de: 'Der Fluss' } },
 								{ label: 'The Coast to Loreto', slug: 'biking/routes/the-coast-to-loreto', translations: { it: 'La Costa verso Loreto', de: 'Die Küste nach Loreto' } },
@@ -204,6 +211,7 @@ try {
 				{
 					label: 'Best of',
 					translations: { it: 'Il meglio di', de: 'Das Beste' },
+					collapsed: true,
 					items: [
 						{ label: 'Best beach for swimming', slug: 'best-of/beach-for-swimming', translations: { it: 'La miglior spiaggia per nuotare', de: 'Der beste Strand zum Schwimmen' } },
 						{ label: 'Best gelato', slug: 'best-of/gelato', translations: { it: 'Il miglior gelato', de: 'Das beste Gelato' } },
@@ -220,6 +228,7 @@ try {
 				{
 					label: 'Weekly markets',
 					translations: { it: 'Mercati settimanali', de: 'Wochenmärkte' },
+					collapsed: true,
 					items: [
 						{ label: 'Thursday', slug: 'weekly-markets/thursday', translations: { it: 'Giovedì', de: 'Donnerstag' } },
 						{ label: 'Wednesday', slug: 'weekly-markets/wednesday', translations: { it: 'Mercoledì', de: 'Mittwoch' } },
@@ -229,6 +238,7 @@ try {
 				{
 					label: 'Vintage & antiques markets (2026)',
 					translations: { it: 'Mercati vintage e antiquariato (2026)', de: 'Vintage- und Antikmärkte (2026)' },
+					collapsed: true,
 					items: [
 						{ label: 'Year-round (closed July & August)', slug: 'vintage-markets/year-round', translations: { it: "Tutto l'anno (chiuso a luglio e agosto)", de: 'Ganzjährig (geschlossen im Juli & August)' } },
 						{ label: 'Monthly, runs in summer too', slug: 'vintage-markets/monthly-summer-included', translations: { it: "Mensile, si tiene anche d'estate", de: 'Monatlich, auch im Sommer' } },
@@ -238,6 +248,7 @@ try {
 				{
 					label: 'Summer events',
 					translations: { it: 'Eventi estivi', de: 'Sommerveranstaltungen' },
+					collapsed: true,
 					items: [
 						{ label: 'Macerata Opera Festival, Sferisterio', slug: 'summer-events/macerata-opera-festival' },
 						{ label: 'Sferisterio Live+', slug: 'summer-events/sferisterio-live-plus' },
