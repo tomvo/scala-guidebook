@@ -222,13 +222,8 @@ try {
 				},
 				{
 					label: 'Weekly markets',
+					slug: 'weekly-markets',
 					translations: { it: 'Mercati settimanali', de: 'Wochenmärkte' },
-					collapsed: true,
-					items: [
-						{ label: 'Thursday', slug: 'weekly-markets/thursday', translations: { it: 'Giovedì', de: 'Donnerstag' } },
-						{ label: 'Wednesday', slug: 'weekly-markets/wednesday', translations: { it: 'Mercoledì', de: 'Mittwoch' } },
-						{ label: 'Saturday', slug: 'weekly-markets/saturday', translations: { it: 'Sabato', de: 'Samstag' } },
-					],
 				},
 				{
 					label: 'Vintage & antiques markets (2026)',
