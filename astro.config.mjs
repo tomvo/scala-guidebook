@@ -9,11 +9,6 @@ import mdx from '@astrojs/mdx';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://guide.agriturismoscala.com',
-	redirects: {
-		'/': '/welcome',
-		'/de': '/de/welcome',
-		'/it': '/it/welcome',
-	},
 	integrations: [
 		starlight({
 			head: [
@@ -104,7 +99,7 @@ try {
 			sidebar: [
 				{
 					label: 'Welcome',
-					slug: 'welcome',
+					slug: '',
 					translations: { it: 'Benvenuti', de: 'Willkommen' },
 				},
 				{
